@@ -1,0 +1,34 @@
+.upcomming h1 {
+  margin: 3rem 0 1rem 0;
+}
+
+.displayMoviesouter {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+hr {
+  width: 30%;
+}
+
+/* MORE FUNCTIONALITY BUTTON STYLES */
+
+/* .morebtndiv {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.morebtndiv h1 {
+  flex-grow: 1;
+}
+.morebtn {
+  margin-right: 5rem;
+  margin-top: 4rem;
+  padding: 0.7rem;
+
+  border-radius: 0.5rem;
+  background-color: black;
+  border: none;
+} */

@@ -1,0 +1,66 @@
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.castCard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 13.5rem;
+  margin: 1rem 0.5rem 0 0.7rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  border-radius: 1rem;
+}
+
+.castCard img {
+  flex: 1 1 10rem;
+  width: 0rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 30%;
+  margin-top: 1rem;
+}
+
+.castCard p {
+  flex: 1 1 20rem;
+
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  font-weight: bold;
+}
+.castCardinfo {
+  height: 70px;
+  width: 150px;
+  padding: 8px;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  background: rgba(27, 27, 27, 0.712);
+}
+
+.castCard:hover .castCardinfo {
+  height: 100px;
+  bottom: 80px;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.438);
+  overflow: hidden;
+}
+.castCard:hover p {
+  visibility: visible;
+  opacity: 1;
+  border-radius: 1rem;
+}
+
+.castCard:hover img {
+  transform: scale(1.05);
+  border-radius: 1rem;
+  transition: transform 0.2s; /* Animation */
+}

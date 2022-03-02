@@ -1,0 +1,83 @@
+.movieinfo {
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.moviedetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hrline {
+  width: 30%;
+  margin: 1rem 0;
+}
+
+.ottProviderbtn {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgb(7, 156, 255);
+  font-size: 1.5rem;
+  border: none;
+  font-weight: bold;
+}
+
+.ottProviderbtn:hover {
+  cursor: pointer;
+}
+
+.posterimg {
+  min-height: 15rem;
+  min-width: 30rem;
+}
+
+.posterimg {
+  border-radius: 1rem;
+}
+.moviedetails img {
+  flex: 1 1 30rem;
+  /* background-color: blanchedalmond; */
+}
+
+.movieoverview {
+  margin-top: 1rem;
+  margin-left: 3rem;
+
+  flex: 1 1 30rem;
+}
+
+.overView p {
+  margin: 1rem 0;
+  color: white;
+}
+
+.movieoverview h2 {
+  margin: 2rem 0;
+  color: white;
+}
+
+.overView h2 {
+  margin-top: 2rem;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .posterimg {
+    min-height: 10rem;
+    min-width: 20rem;
+  }
+  .movieoverview {
+    margin-top: 1rem;
+    margin-left: 0;
+
+    flex: 1 1 30rem;
+  }
+  .movieoverview h2 {
+    margin: 2rem 0;
+    color: white;
+  }
+
+  .movieinfo h1 {
+    font-size: 1.8rem;
+  }
+}

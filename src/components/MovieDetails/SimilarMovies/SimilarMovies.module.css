@@ -1,0 +1,43 @@
+.movieinfo {
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+}
+
+.moviedetails {
+  display: flex;
+}
+
+.hrline {
+  width: 30%;
+  margin: 1rem 0;
+}
+
+.posterimg {
+  min-height: 15rem;
+  min-width: 35rem;
+}
+
+.moviedetails img {
+  flex: 1 1 30rem;
+  /* background-color: blanchedalmond; */
+}
+
+.movieoverview {
+  margin: 1rem 0;
+  flex: 2 1 30rem;
+}
+
+.overView p {
+  margin: 1rem 0;
+}
+
+.movieoverview h2 {
+  margin: 2rem 0;
+}
+@media only screen and (max-width: 900px) {
+  .posterimg {
+    min-height: 5rem;
+    min-width: 15rem;
+  }
+}
