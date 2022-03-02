@@ -51,7 +51,6 @@ const SearchMovie = () => {
         <div className={classes.imgcontainer}>
           {search.map((mov) => (
             <Link to={`/details/${mov.id}`}>
-              {/* <img className={classes.cardimg} src={mov.posterimg}></img> */}
               <MovieCard name={mov.title} key={mov.id} imgUrl={mov.posterimg} />
             </Link>
           ))}
